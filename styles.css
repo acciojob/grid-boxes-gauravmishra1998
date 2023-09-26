@@ -1,1 +1,49 @@
 /*  your css code here. If applicable */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap:10px;
+  background-color:white;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: #008001;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item1 {
+  grid-column-start:1;
+	grid-column-end:end;
+}
+.item2 {
+  grid-row-start:2;
+	grid-row-end:6;
+}
+.item3{
+	 grid-column-start:2;
+	grid-column-end:3;
+}
+.item4{ grid-column-start:3;
+	grid-column-end:end;
+	}
+.item5{
+	 grid-column-start:2;
+	grid-column-end:4;
+}
+.item6{
+	 grid-column-start:5;
+	grid-column-end:4;
+}
+.item7{
+	 grid-column-start:2;
+	grid-column-end:;
+}
+.item10{
+	 grid-column-start:2;
+	grid-column-end:end;
+}
+
+
+
+
