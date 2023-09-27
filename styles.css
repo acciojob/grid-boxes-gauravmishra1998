@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.grid-container {
+#grid {
   display:grid;
   grid-template-columns:124px 124px 124px 124px 124px;
 	  grid-template-rows:242.5px 242.5px 242.5px 242.5px;
@@ -7,7 +7,7 @@
   background-color:white;
   padding: 10px;
 }
-.grid-container > div {
+#grid > div {
   background-color: #008001;
   text-align: center;
   padding: 20px 0;
