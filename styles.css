@@ -2,7 +2,7 @@
 #grid {
   display:grid;
   grid-template-columns:124px 124px 124px 124px 124px;
-	  grid-template-rows:242.5px 242.5px 242.5px 242.5px;
+	  grid-template-rows:'124px 124px 124px 124px 124px';
  grid-gap:10px 10px;
   background-color:white;
   padding: 10px;
@@ -14,8 +14,8 @@
   font-size: 30px;
 }
 .item1 {
-  grid-column-start:1;
-	grid-column-end:end;
+  grid-column-start:span 4;
+	grid-column-end:auto;
 }
 .item2 {
   grid-row-start:2;
@@ -26,7 +26,7 @@
 	grid-column-end:3;
 }
 .item4{ grid-column-start:3;
-	grid-column-end:end;
+	grid-column-end:span 2 ;
 	}
 .item5{
 	 grid-column-start:2;
@@ -42,7 +42,7 @@
 }
 .item10{
 	 grid-column-start:2;
-	grid-column-end:end;
+	grid-column-end:span 3;
 }
 
 
